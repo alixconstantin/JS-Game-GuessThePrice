@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>JS game, Guess the Price</title>
+</head>
+<body>
+    
+    <div class="container">
+  
+        <div class="row justify-content-center mt-5">
+          <header>
+            Le Juste Prix
+          </header>
+        </div>
+        
+        <!-- Formulaire -->
+        <div class="row justify-content-center mt-5 mb-4">   
+          <div class="col-lg-8">   
+            <div class="bg-light p-5 shadow">
+              
+              <form id="formulaire">
+                <div class="row">
+                  <div class="col">
+                    <input id="prix" class="form-control" placeholder="Devinez le prix ! (entre 0 et 1 000)" />
+                  </div>
+                  <button type="submit" class="btn btn-primary">Deviner</button>
+                </div>
+                <small class="text-danger">Vous devez rentrer un nombre.</small>
+              </form>
+              
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="row justify-content-center">
+          <div id="instructions" class="col-lg-8"></div>
+        </div>
+        
+      </div>
+
+
+
+
+<script src='game.js'></script>
+</body>
+</html>

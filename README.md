@@ -8,3 +8,4 @@ It is less expensive
 It's the right price!
 
 In this version of "Fair Price", it will generate a random price, and it will calculate the number of moves it takes for a player to find the fair price. Thus, it will be able to confront his friends to try to see who finds the right price with the fewest possible moves!
+

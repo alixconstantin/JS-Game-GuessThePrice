@@ -1,0 +1,42 @@
+html, body {
+    background-color: #282323; 
+    min-width: 500px;
+  }
+  
+  header {
+    color: #efca0f;
+    text-align: center;
+    font-size: 3em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom:1px solid black;
+  }
+  
+  #instructions {
+    color: white;
+  }
+  
+  .instruction {
+    padding: 15px;
+    margin: 10px 0;
+  }
+  /* Background de couleurs différentes en fonction de la réponses donné a l'utilisateur */
+  .plus {
+    background-color: #f67280;
+  }
+  
+  .moins {
+    background-color: #ffa372;
+  }
+  
+  .fini {
+    background-color : #0c9463;
+  }
+
+  .container {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  }
+
+  .btn {
+      margin-top:20px;
+  }
